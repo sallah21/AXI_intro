@@ -1,0 +1,15 @@
+name: my workflow
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo lol
+        run: |
+          echo "ADIS ADIS"
+          echo "ADIS2 ADIS2"
+  
+      
